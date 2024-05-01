@@ -1,3 +1,9 @@
 points = 0;
 checkPoint = 0;
 level = 1;
+bg = layer_background_get_id("Backgrounds_1");
+color = layer_background_get_blend(bg);
+targetColor = color;
+rTarget = color_get_red(color);
+gTarget = color_get_green(color);
+bTarget = color_get_blue(color);

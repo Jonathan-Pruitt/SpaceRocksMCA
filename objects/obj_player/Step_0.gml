@@ -28,4 +28,8 @@ if (powerTimer > 0) {
 	powerTimer--;
 }//end if
 
+if (iframes > 0) {
+	Invincibility();	
+}//end if
+
 move_wrap(true, true, 0);
